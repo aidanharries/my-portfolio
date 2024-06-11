@@ -1,0 +1,53 @@
+.skills_container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875rem;
+}
+
+.skills_card {
+    text-align: center;
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    background-color: var(--container-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.skills_card:hover {
+    transform: translateY(-20px);
+}
+
+.skills_card:nth-child(1) {
+    background-color: rgb(249, 215, 76);
+    box-shadow: var(--shadow);
+}
+
+.skills_card:nth-child(2) {
+    background-color: rgb(249, 123, 139);
+    box-shadow: var(--shadow);
+}
+
+.skills_card:nth-child(3) {
+    background-color: rgb(108, 108, 229);
+    box-shadow: var(--shadow);
+}
+
+.skills_img {
+    margin-bottom: 1.25rem;
+}
+
+.skills_title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+    color: var(--title-color);
+}
+
+.skills_description {
+    color: var(--title-color);
+}
+
+.skills_card:nth-child(1) .skills_title {
+    color: var(--title-color);
+}
+
+.skills_card:nth-child(1) .skills_description {
+    color: var(--title-color);
+}

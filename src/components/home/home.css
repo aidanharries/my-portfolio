@@ -1,0 +1,61 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the container */
+    justify-content: center;
+    padding-top: 10vh; /* Add padding to control the top spacing */
+}
+
+.intro {
+    max-width: 540px;
+    text-align: center;
+    transform: scale(1.5);
+    transform-origin: center top;
+}
+
+.home_img {
+    margin-bottom: 1.5rem;
+}
+
+.home_intro {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.home_name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    color: var(--body-color);
+    margin-bottom: 0.5rem;
+}
+
+.home_socials {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.75rem;
+    margin: 1.5rem 0;
+}
+
+.home_social-link {
+    color: var(--body-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.home_social-link:hover {
+    color: hsl(43, 100%, 68%);
+}
+
+.floats {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background: url('../../assets/wobbling-particles.svg') no-repeat center center;
+    background-size: cover;
+}
