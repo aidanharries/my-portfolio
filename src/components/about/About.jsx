@@ -19,7 +19,7 @@ const About = () => {
                         with a particular interest in AI and machine learning. I also dabble in 
                         website design and enjoy working with microcontroller-based systems.
                         Always eager to expand my skills and knowledge in the tech industry!</p>
-                        <a href="https://drive.google.com/uc?export=download&id=12ReFgFY_sjwGTif2b9G7tlWs1jo_1FxD" className="btn">Download CV</a>
+                        <a href="https://drive.google.com/uc?export=download&id=1BzPNIjumQUiBm5tc2Sru9vqNCoCDjU3M" className="btn">Download CV</a>
                     </div>
 
                     <div className="about_skills grid">
